@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="views.xsl" ?>
+<!DOCTYPE users SYSTEM "elements.dtd">
+<users>
+    <user>
+        <userid>1</userid>
+        <fname>John</fname>
+        <lname>Doe</lname>
+        <email>johndoe@mail.com</email>
+        <password>christ@123</password>
+        <age>21</age>
+    </user>
+    <user>
+        <userid>2</userid>
+        <fname>Karina</fname>
+        <lname>Vitale</lname>
+        <email>vitalekarina@mail.com</email>
+        <password>abcdefu</password>
+        <age>28</age>
+    </user>
+    <user>
+        <userid>3</userid>
+        <fname>Ellis</fname>
+        <lname>Dunn</lname>
+        <email>Dunn@mail.com</email>
+        <password>ElisElis</password>
+        <age>37</age>
+    </user>
+    <user>
+        <userid>4</userid>
+        <fname>Troy</fname>
+        <lname>Benoit</lname>
+        <email>troyb@mail.com</email>
+        <password>troyous123</password>
+        <age>54</age>
+    </user>
+    <user>
+        <userid>5</userid>
+        <fname>Kathryn</fname>
+        <lname>Browne</lname>
+        <email>browny@mail.com</email>
+        <password>chocolate</password>
+        <age>44</age>
+    </user>
+    <user>
+        <userid>6</userid>
+        <fname>Kimberly</fname>
+        <lname>Howard</lname>
+        <email>howardkim@mail.com</email>
+        <password>kimmykim</password>
+        <age>25</age>
+    </user>
+</users>
