@@ -1,6 +1,9 @@
 <!ELEMENT users (to,from,heading,body)>
 <!ELEMENT users (user)>
-<!ELEMENT to (#PCDATA)>
-<!ELEMENT from (#PCDATA)>
-<!ELEMENT heading (#PCDATA)>
-<!ELEMENT body (#PCDATA)>
+<!ELEMENT user (userid,fname,lname,email,password,age)>
+<!ELEMENT userid (#PCDATA)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
