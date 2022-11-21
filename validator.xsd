@@ -5,12 +5,12 @@
                 <xs:element name="user" maxOccurs="unbounded" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element type="xs:byte" name="userid" />
+                            <xs:element type="xs:unsignedInt" name="userid" />
                             <xs:element type="xs:string" name="fname" />
                             <xs:element type="xs:string" name="lname" />
                             <xs:element type="xs:string" name="email" />
                             <xs:element type="xs:string" name="password" />
-                            <xs:element type="xs:byte" name="age" />
+                            <xs:element type="xs:unsignedShort" name="age" />
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
