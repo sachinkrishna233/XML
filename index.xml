@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+<!-- Linker for stylesheet -->
 <?xml-stylesheet type="text/xsl" href="views.xsl" ?>
 <!-- <!DOCTYPE users SYSTEM "elements.dtd">  -->
+<!-- xsd linker -->
 <users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validator.xsd">
     <user>
         <userid>1</userid>

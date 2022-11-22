@@ -5,7 +5,16 @@
                 <xs:element name="user" maxOccurs="unbounded" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element type="xs:unsignedInt" name="userid" />
+                            <xs:element name="userid">
+                                <!-- xml restrictions -->
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="1" />
+                                        <xs:maxInclusive value="10" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                                <!-- end of restrictions -->
+                            </xs:element>
                             <xs:element type="xs:string" name="fname" />
                             <xs:element type="xs:string" name="lname" />
                             <xs:element type="xs:string" name="email" />
