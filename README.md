@@ -1,7 +1,7 @@
 # XML
-Lab 3 - XML, DTD, XSD
+## Lab 3 - XML, DTD, XSD
 
-Create a XML file based on your domain with minimum of six elements  and validate the file using xml schema with the following conditions
+### Create a XML file based on your domain with minimum of six elements  and validate the file using xml schema with the following conditions
 -XML file should have minimum 8 entities
 -Define appropriate data type for all the contents
 -Validate XML file using XMLSchema with the following condition:
